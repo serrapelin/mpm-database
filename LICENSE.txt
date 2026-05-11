@@ -1,0 +1,7 @@
+Placeholder academic-use license for the Monetary Policy Meeting Database website template.
+
+Copyright (c) YEAR Serra Pelin and Alfredo Mendoza-Fernández.
+
+This website template may be modified for the Monetary Policy Meeting Database project. Dataset access, redistribution, and commercial use must be governed by the final data license selected by the authors.
+
+Before public launch, replace this file with the project's final license terms, for example CC BY-NC 4.0 or a custom academic data-use license.

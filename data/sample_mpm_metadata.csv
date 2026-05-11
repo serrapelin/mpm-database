@@ -1,0 +1,4 @@
+wbcode,country,central_bank,session_date,policy_rate,d_mpr,decision_direction,last_fomc_date,source_url
+AUS,Australia,Reserve Bank of Australia,2024-05-07,4.35,0,hold,2024-05-01,https://www.rba.gov.au/
+BRA,Brazil,Central Bank of Brazil,2024-05-08,10.50,-25,cut,2024-05-01,https://www.bcb.gov.br/
+KOR,South Korea,Bank of Korea,2024-05-23,3.50,0,hold,2024-05-01,https://www.bok.or.kr/

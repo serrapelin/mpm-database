@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Monetary Policy Meeting Database: a cross-country meeting-frequency dataset of central bank policy meetings, decisions, and monetary policy communication.">
+  <title>MPM Database | Monetary Policy Meeting Database</title>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" class="active" aria-label="MPM Database home">
+      <span class="brand-mark">MPM</span>
+      <span>Monetary Policy Meeting Database</span>
+    </a>
+    <button class="menu-toggle" data-menu-toggle aria-label="Open menu">Menu</button>
+    <nav class="nav-links" data-nav-links>
+      <a href="index.html" class="active">Home</a>
+      <a href="papers.html">Papers</a>
+      <a href="methodology.html">Methodology</a>
+      <a href="codebook.html">Codebook</a>
+      <a href="access.html">Access & Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="container">
+    <div class="eyebrow">Global central bank meeting-frequency resource</div>
+    <h1>Monetary Policy Meeting Database</h1>
+    <p class="lead">MPM provides a standardized, machine-readable dataset of central bank policy meetings, policy-rate decisions, meeting calendars, and cross-country monetary policy synchronization. The database is built for research on international monetary transmission, central bank reaction functions, and the global spillovers of Federal Reserve policy.</p>
+    <div class="btn-row">
+      <a class="btn primary" href="access.html">Request access</a>
+      <a class="btn secondary" href="methodology.html">Read methodology</a>
+      <a class="btn ghost" href="papers.html">See papers →</a>
+    </div>
+    <div class="stats-grid" aria-label="database statistics">
+      <div class="stat-card"><div class="stat-number">TBD</div><div class="stat-label">Policy meetings</div></div>
+      <div class="stat-card"><div class="stat-number">TBD</div><div class="stat-label">Central banks</div></div>
+      <div class="stat-card"><div class="stat-number">TBD</div><div class="stat-label">Coverage period</div></div>
+      <div class="stat-card"><div class="stat-number">v0.1</div><div class="stat-label">Current beta release</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="eyebrow">What the database is for</div>
+    <h2 class="section-title">Meeting-level evidence on monetary policy decisions</h2>
+    <p class="section-lead">Monthly datasets can miss the timing of central bank decisions, especially when multiple policy meetings occur in the same month or when a local meeting follows a Federal Reserve announcement by only a few days. MPM is designed to preserve that timing.</p>
+    <div class="grid-3">
+      <article class="card"><span class="badge">Meeting frequency</span><h3>Policy calendars</h3><p>Each observation is organized around a central bank meeting date rather than a monthly aggregate, allowing high-frequency alignment across countries.</p></article>
+      <article class="card"><span class="badge">Policy decisions</span><h3>Rate changes and decisions</h3><p>The template includes fields for policy-rate levels, changes, decision signs, meeting windows, and links to source documents.</p></article>
+      <article class="card"><span class="badge">Global transmission</span><h3>Fed synchronization</h3><p>The structure supports studying whether central banks adjust policy in the same direction as recent Federal Reserve moves and high-frequency U.S. monetary policy shocks.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="callout">
+      <div class="eyebrow">Beta release</div>
+      <h2 class="section-title">The first public-facing site for the MPM Database</h2>
+      <p>This launch template is meant for a test GitHub Pages deployment. Replace the placeholder statistics, access form, citation, and repository links once the first release is ready.</p>
+      <a href="access.html">How to request access →</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="eyebrow">Research questions</div>
+    <h2 class="section-title">What can be studied with MPM?</h2>
+    <div class="grid-2">
+      <article class="card"><h3>Do central banks follow the Fed?</h3><p>Measure local monetary policy responses after FOMC meetings at the meeting frequency rather than relying only on monthly policy-rate changes.</p></article>
+      <article class="card"><h3>Does aggregation hide policy synchronization?</h3><p>Compare meeting-level decisions with monthly aggregates to quantify how timing and offsetting moves shape estimated spillovers.</p></article>
+      <article class="card"><h3>How do advanced and emerging economies differ?</h3><p>Study heterogeneity by market classification, inflation-targeting status, exchange-rate regime, or regional grouping.</p></article>
+      <article class="card"><h3>How do policy decisions interact with communication?</h3><p>Link decisions to statements, minutes, press releases, or macro announcements when source documents are available.</p></article>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-row">
+    <div>Monetary Policy Meeting Database (MPM) · Serra Pelin and Alfredo Mendoza-Fernández</div>
+    <div>Disclaimer: This website and database are for academic research. Views are those of the authors only.</div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

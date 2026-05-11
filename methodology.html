@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Monetary Policy Meeting Database: a cross-country meeting-frequency dataset of central bank policy meetings, decisions, and monetary policy communication.">
+  <title>MPM Database | Methodology</title>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="MPM Database home">
+      <span class="brand-mark">MPM</span>
+      <span>Monetary Policy Meeting Database</span>
+    </a>
+    <button class="menu-toggle" data-menu-toggle aria-label="Open menu">Menu</button>
+    <nav class="nav-links" data-nav-links>
+      <a href="index.html">Home</a>
+      <a href="papers.html">Papers</a>
+      <a href="methodology.html" class="active">Methodology</a>
+      <a href="codebook.html">Codebook</a>
+      <a href="access.html">Access & Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="page-hero"><div class="container"><div class="eyebrow">Data construction</div><h1>How MPM is built</h1><p class="lead">A reproducible pipeline for building a cross-country, meeting-frequency central bank decision dataset.</p></div></section>
+<section class="section"><div class="container"><h2 class="section-title">Database features</h2><div class="grid-2">
+<article class="card"><h3>Scope</h3><p>Central bank monetary policy meetings, decision dates, policy-rate levels, rate changes, decision signs, and source links. Replace this text with the finalized scope of the first release.</p></article>
+<article class="card"><h3>Timeframe</h3><p>Coverage is designed to span multiple decades where source availability allows. Replace the placeholder coverage period after final validation.</p></article>
+<article class="card"><h3>Meeting alignment</h3><p>Local meetings can be aligned to the most recent FOMC decision, event windows, or announcement dates to study policy spillovers at the appropriate frequency.</p></article>
+<article class="card"><h3>Reproducibility</h3><p>Versioned releases should include raw-source references, cleaned meeting-level files, a codebook, and scripts for validation checks.</p></article>
+</div></div></section>
+<section class="section"><div class="container"><h2 class="section-title">Suggested construction pipeline</h2><div class="timeline">
+<div class="step"><div><h3>Collect official calendars and source documents</h3><p>Start from central bank calendars, policy statements, press releases, and official policy-rate histories.</p></div></div>
+<div class="step"><div><h3>Standardize meeting dates and country identifiers</h3><p>Use ISO country codes, central bank identifiers, local meeting dates, and consistent publication timestamps.</p></div></div>
+<div class="step"><div><h3>Construct decision variables</h3><p>Record the policy-rate level, basis-point change, direction of move, unscheduled meetings, and missing-data flags.</p></div></div>
+<div class="step"><div><h3>Merge global event timing</h3><p>Add FOMC dates, recent U.S. monetary policy shocks, and windows since the last Fed meeting for cross-country synchronization analysis.</p></div></div>
+<div class="step"><div><h3>Validate and version releases</h3><p>Run duplicate checks, date-order checks, rate-change consistency checks, and country-level source audits before each release.</p></div></div>
+</div></div></section>
+<section class="section"><div class="container"><h2 class="section-title">Future updates</h2><div class="grid-3"><article class="card"><h3>More jurisdictions</h3><p>Add countries as source coverage and validation improve.</p></article><article class="card"><h3>Text links</h3><p>Connect each meeting to statements, minutes, and press conference transcripts when available.</p></article><article class="card"><h3>Research releases</h3><p>Publish frozen versions used in papers, replication packages, and public documentation.</p></article></div></div></section>
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-row">
+    <div>Monetary Policy Meeting Database (MPM) · Serra Pelin and Alfredo Mendoza-Fernández</div>
+    <div>Disclaimer: This website and database are for academic research. Views are those of the authors only.</div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Monetary Policy Meeting Database: a cross-country meeting-frequency dataset of central bank policy meetings, decisions, and monetary policy communication.">
+  <title>MPM Database | Codebook</title>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="MPM Database home">
+      <span class="brand-mark">MPM</span>
+      <span>Monetary Policy Meeting Database</span>
+    </a>
+    <button class="menu-toggle" data-menu-toggle aria-label="Open menu">Menu</button>
+    <nav class="nav-links" data-nav-links>
+      <a href="index.html">Home</a>
+      <a href="papers.html">Papers</a>
+      <a href="methodology.html">Methodology</a>
+      <a href="codebook.html" class="active">Codebook</a>
+      <a href="access.html">Access & Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="page-hero"><div class="container"><div class="eyebrow">Documentation</div><h1>Codebook</h1><p class="lead">A starter codebook for documenting the public-facing MPM Database release.</p></div></section>
+<section class="section"><div class="container"><h2 class="section-title">Core fields</h2><div class="table-wrap"><table><thead><tr><th>Variable</th><th>Description</th><th>Example</th></tr></thead><tbody>
+<tr><td><code>wbcode</code></td><td>Country code used in the research files.</td><td>AUS</td></tr>
+<tr><td><code>country</code></td><td>Country or jurisdiction name.</td><td>Australia</td></tr>
+<tr><td><code>central_bank</code></td><td>Name of the central bank.</td><td>Reserve Bank of Australia</td></tr>
+<tr><td><code>session_date</code></td><td>Date of the monetary policy meeting or announcement.</td><td>2024-05-07</td></tr>
+<tr><td><code>policy_rate</code></td><td>Primary policy-rate level after the decision.</td><td>4.35</td></tr>
+<tr><td><code>d_mpr</code></td><td>Change in the monetary policy rate in basis points or percentage points, depending on your final convention.</td><td>0</td></tr>
+<tr><td><code>decision_direction</code></td><td>Direction of policy move: hike, cut, hold, or other.</td><td>hold</td></tr>
+<tr><td><code>last_fomc_date</code></td><td>Most recent FOMC date before the local meeting.</td><td>2024-05-01</td></tr>
+<tr><td><code>source_url</code></td><td>Official central bank source for the meeting.</td><td>https://...</td></tr>
+</tbody></table></div></div></section>
+<section class="section"><div class="container"><h2 class="section-title">Download sample metadata</h2><p class="section-lead">This repository includes a small dummy CSV only to test links and documentation. Replace it with a non-sensitive sample or remove it before launch.</p><a class="btn primary" href="data/sample_mpm_metadata.csv">Download sample CSV</a></div></section>
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-row">
+    <div>Monetary Policy Meeting Database (MPM) · Serra Pelin and Alfredo Mendoza-Fernández</div>
+    <div>Disclaimer: This website and database are for academic research. Views are those of the authors only.</div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
